@@ -31,8 +31,8 @@ body, html {
 
 .middle {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 78%;
+  left: 48%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -50,7 +50,6 @@ hr {
   </div>
   <div class="middle">
     <h1>COMING SOON</h1>
-    <hr>
     <p id="demo" style="font-size:30px"></p>
   </div>
   <div class="bottomleft">
@@ -84,7 +83,7 @@ var countdownfunction = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(countdownfunction);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "";
   }
 }, 1000);
 </script>
