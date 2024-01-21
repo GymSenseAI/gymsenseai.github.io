@@ -19,7 +19,8 @@ body {
 @media screen and (max-width: 992px) {
     body #caption {
         top:50%;
-        left:17%;
+        left:6%;
+        font-size: 33px;
     }
   }
 
