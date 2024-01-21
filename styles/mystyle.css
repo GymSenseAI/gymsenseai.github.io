@@ -13,7 +13,7 @@ html, body {
 
 body {
     /*background-color: #6052d0;*/
-    background: linear-gradient(to right, #5e4edb, #039fee);
+    background: linear-gradient(to right, #4b3db0, #35bcff, #4b3db0);
 }
 
 @media screen and (max-width: 992px) {
@@ -41,4 +41,3 @@ body {
     transform: translate(-50%, -50%);
     filter: drop-shadow(0 0 5px white); /* Adjust the blur radius as needed */
 }
-
