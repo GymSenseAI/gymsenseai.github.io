@@ -22,6 +22,10 @@ body {
         left:6%;
         font-size: 33px;
     }
+
+    body {
+        background: linear-gradient(to right, #3177ef, #35bcff, #3177ef);
+    }
   }
 
 #caption {
@@ -41,3 +45,4 @@ body {
     transform: translate(-50%, -50%);
     filter: drop-shadow(0 0 5px white); /* Adjust the blur radius as needed */
 }
+
