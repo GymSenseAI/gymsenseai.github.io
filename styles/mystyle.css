@@ -17,8 +17,9 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-    #caption {
-        position: absolute;
+    body #caption {
+        top:50%;
+        left:17%;
     }
   }
 
@@ -39,7 +40,4 @@ body {
     transform: translate(-50%, -50%);
     filter: drop-shadow(0 0 5px white); /* Adjust the blur radius as needed */
 }
-
-
-
 
